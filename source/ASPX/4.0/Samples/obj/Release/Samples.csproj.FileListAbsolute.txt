@@ -1,0 +1,8 @@
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\Samples\bin\Samples.dll.config
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\Samples\bin\Samples.dll
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\Samples\bin\Samples.pdb
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\Samples\obj\Release\Samples.dll
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\Samples\obj\Release\Samples.pdb
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\Samples\bin\pgnWebHTMLEditor.dll
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\Samples\bin\pgnWebHTMLEditor.pdb
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\Samples\obj\Release\Samples.csprojResolveAssemblyReference.cache

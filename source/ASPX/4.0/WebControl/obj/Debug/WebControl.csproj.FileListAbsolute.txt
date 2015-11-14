@@ -1,0 +1,4 @@
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\WebControl\bin\Debug\pgnWebHTMLEditor.dll
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\WebControl\bin\Debug\pgnWebHTMLEditor.pdb
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\WebControl\obj\Debug\pgnWebHTMLEditor.dll
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\WebControl\obj\Debug\pgnWebHTMLEditor.pdb

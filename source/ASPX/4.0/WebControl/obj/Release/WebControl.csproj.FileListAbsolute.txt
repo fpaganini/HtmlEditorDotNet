@@ -1,0 +1,7 @@
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\WebControl\bin\Release\pgnWebHTMLEditor.dll
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\WebControl\bin\Release\pgnWebHTMLEditor.pdb
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\WebControl\obj\Release\pgnWebHTMLEditor.dll
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\WebControl\obj\Release\pgnWebHTMLEditor.pdb
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\DLL\4.0\pgnWebHTMLEditor.dll
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\DLL\4.0\pgnWebHTMLEditor.pdb
+D:\br\com\pgnsoft\Workspace\HtmlEditorDotNet\source\ASPX\4.0\WebControl\obj\Release\WebControl.csprojResolveAssemblyReference.cache
