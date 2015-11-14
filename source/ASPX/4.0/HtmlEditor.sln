@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{94F8ACFB-4CA2-499D-AE13-FD8FF51F654B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InHTML", "InHTML\InHTML.csproj", "{583752A5-51CD-4F1B-B292-8E761A1BBFC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebControl", "WebControl\WebControl.csproj", "{DBB9248C-CA3A-4141-ADD7-DBD7C2AC37E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{94F8ACFB-4CA2-499D-AE13-FD8FF51F654B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94F8ACFB-4CA2-499D-AE13-FD8FF51F654B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94F8ACFB-4CA2-499D-AE13-FD8FF51F654B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{583752A5-51CD-4F1B-B292-8E761A1BBFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{583752A5-51CD-4F1B-B292-8E761A1BBFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{583752A5-51CD-4F1B-B292-8E761A1BBFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{583752A5-51CD-4F1B-B292-8E761A1BBFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB9248C-CA3A-4141-ADD7-DBD7C2AC37E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB9248C-CA3A-4141-ADD7-DBD7C2AC37E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB9248C-CA3A-4141-ADD7-DBD7C2AC37E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB9248C-CA3A-4141-ADD7-DBD7C2AC37E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
