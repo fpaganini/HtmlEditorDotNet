@@ -77,17 +77,17 @@ namespace br.com.pgnsoft.web
 
         protected override void OnInit(EventArgs e)
         {
-            if (this.Context.Request["htmlEditor1_value"] != null)
+            if (this.Context.Request[this.ClientID + "_value"] != null)
             {
-                HTML = GetHTML(this.Context.Request[this.UniqueID + "_value"]);
+                HTML = GetHTML(this.Context.Request[this.ClientID + "_value"]);
             }
 
             base.OnInit(e);
              
-            this.Page.Header.Controls.Add(new LiteralControl("<link rel='stylesheet' type='text/css' href='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.fonts.font-awesome.css") + "' ></link>"));
-            this.Page.Header.Controls.Add(new LiteralControl("<link rel='stylesheet' type='text/css' href='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.css.css") + "' ></link>"));
-            this.Page.Header.Controls.Add(new LiteralControl("<script type='text/javascript' src='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.js1.js") + "' ></script>"));
-            this.Page.Header.Controls.Add(new LiteralControl("<script type='text/javascript' src='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.js2.js") + "' ></script>"));
+            //this.Page.Header.Controls.Add(new LiteralControl("<link rel='stylesheet' type='text/css' href='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.fonts.font-awesome.css") + "' ></link>"));
+            //this.Page.Header.Controls.Add(new LiteralControl("<link rel='stylesheet' type='text/css' href='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.css.css") + "' ></link>"));
+            //this.Page.Header.Controls.Add(new LiteralControl("<script type='text/javascript' src='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.js1.js") + "' ></script>"));
+            //this.Page.Header.Controls.Add(new LiteralControl("<script type='text/javascript' src='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.js2.js") + "' ></script>"));
 
         }
 
@@ -103,6 +103,14 @@ namespace br.com.pgnsoft.web
 
         protected override void RenderContents(HtmlTextWriter output)
         {
+
+
+            output.Write ("<link rel='stylesheet' type='text/css' href='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.fonts.font-awesome.css") + "' ></link>");
+            output.Write ("<link rel='stylesheet' type='text/css' href='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.css.css") + "' ></link>");
+            output.Write ("<script type='text/javascript' src='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.js1.js") + "' ></script>");
+            output.Write ("<script type='text/javascript' src='" + Page.ClientScript.GetWebResourceUrl(this.GetType(), "br.com.pgnsoft.web.js2.js") + "' ></script>");
+
+
 
             output.Write("<style>");
             output.Write("@font-face { font-family: 'FontAwesome'; ");
@@ -164,7 +172,7 @@ namespace br.com.pgnsoft.web
             //Verificando se tradução está setada para assim, carregar o conteudo
             output.Write (string.IsNullOrEmpty(TranslateFile) ? "" : GetTranslate());
 
-            string name = this.UniqueID ;
+            string name = this.ClientID ;
 
             //Iniciando div container e script
             output.Write("<div id='" + name + "'><input class='htmlEditor_value' type='hidden' class='pgn-view' name='" + name   + "_value' value='valor teste'><div id='" + name +"_edit' style='margin-top: 30px;'></div><script>");

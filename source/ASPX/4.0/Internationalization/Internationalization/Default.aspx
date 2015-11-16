@@ -12,7 +12,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <cc1:htmlEditor ID="HtmlEditor1" runat="server" />
+        <cc1:htmlEditor ID="HtmlEditor1" runat="server" TranslateFile="~/fr.txt" />
         <br />
         <div>
             <asp:Button runat="server" ID="btnSend" Text="Send" OnClick="btnSend_Click" />
